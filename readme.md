@@ -2,9 +2,6 @@
 
 Proyecto sobre el deporte llamado Slack.
 
-## Instalacion
-
-```git clone https://github.com/Turimen/Primera-Entrega.git```
 
 ## Utilizacion
 
