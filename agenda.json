@@ -1,0 +1,24 @@
+[
+	{
+		"id": 1,
+		"titulo": "Clase principiantes",
+		"detalle": "Traer ropa cómoda y algo para tomar.",
+		"fecha": "20/04/22",
+		"hora": "20hs",
+		"categoria": "classic"
+	}, {
+		"id": 2,
+		"titulo": "Juntada en el Rose",
+		"detalle": "Nos juntamos en la estacion saludable.",
+		"fecha": "20/04/22",
+		"hora": "14hs",
+		"categoria": "classic"
+		}, {
+			"id": 3,
+			"titulo": "Juntada en el Vial Costero",
+			"detalle": "Nos juntamos en el puente rojo.",
+			"fecha": "28/04/22",
+			"hora": "14hs",
+			"categoria": "Trickline"
+		}
+]

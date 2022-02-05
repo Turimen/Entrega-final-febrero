@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mundo Slack</title>
+    <link rel="shortcut icon" type= "image/x-icon" href="/images/logo.png">
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'>
+    <script src="https://kit.fontawesome.com/eb81e2a038.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    
+    <%- include('./partials/header.ejs') %>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="encabezado-eventos">Eventos de Slack</h3>
+                    
+                    <% agenda.forEach( evento => { %>
+                        <h4 class="evento"><%= evento.titulo %></h4>
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <h5>Detalle:</h5>
+                                <p><%= evento.detalle %> </p>
+                            </div>
+                            
+                            <div class="col-12 col-md-3">
+                                <h5>Fecha:</h5>
+                                <p><%= evento.fecha %> </p>  
+                            </div>
+                            
+                            <div class="col-12 col-md-3">
+                                <h5>Hora:</h5>
+                                <p><%= evento.hora %> </p>    
+                            </div>
+                            
+                            <div class="col-12 col-md-3">
+                                <h5>Tipo de Slack:</h5>
+                                <p><%= evento.categoria %> </p>
+                            </div>
+                        </div>
+                        
+                        <% }) %> 
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </main>
+        
+        
+        
+        <%- include('./partials/footer.ejs') %>
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+        
+    </body>
+    </html>
+    
