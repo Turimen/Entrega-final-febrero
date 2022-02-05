@@ -2,6 +2,10 @@
 
 Proyecto sobre el deporte llamado Slack.
 
+## Instalacion
+
+```url descarga https://github.com/Turimen/Entrega-final-febrero```
+
 
 ## Utilizacion
 
